@@ -56,7 +56,7 @@ samtools index <file_name>.sorted.bam <file_name>.sorted.bam.bai
 准备好数据后，就可以运行脚本了，运行命令如下：
 
 ```shell
-usage: python recom_cal_v4.0.0.py --bam_file <file_name>.bam --snp_file <file_name>.txt --mode <mode string>
+usage: python recom_cal.py --bam_file <file_name>.bam --snp_file <file_name>.txt --mode <mode string>
 
 optional arguments:
     --batch BATCH_NUM                   设置Batch数量，默认为8
